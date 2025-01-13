@@ -44,7 +44,7 @@ interface Props {
   value?: string;
 }
 
-const ImageUpload = ({
+const FileUpload = ({
   type,
   accept,
   placeholder,
@@ -188,4 +188,4 @@ const ImageUpload = ({
     </ImageKitProvider>
   );
 };
-export default ImageUpload;
+export default FileUpload;
